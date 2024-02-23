@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Integration</title>
+    <link rel="stylesheet" href="deleteintegration.css">
+</head>
+<body>
+    <div class="container">
+        <h1>The page has been deleted</h1>
+        <button onclick="redirectToLogin()"> Redirect to Login</button>
+    </div>
+    <script>
+        function redirectToLogin() {
+            window.location.href = "login.html";
+            return false; // Prevent form submission
+        }
+    </script>
+</body>
+</html>

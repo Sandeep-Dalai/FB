@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to our website!</h2>
+        <p>Connect your account to Facebook to enable more features:</p>
+        <button id="connectFacebookButton">Connect to Facebook</button>
+    </div>
+
+    <script>
+        document.getElementById('connectFacebookButton').addEventListener('click', function() {
+            // Redirect to the Facebook connection page
+            window.location.href = 'connect_facebook.html';
+        });
+    </script>
+</body>
+</html>
